@@ -1,0 +1,40 @@
+.nav {
+    @apply flex flex-col w-56 pb-4 overflow-auto border-r border-gray-300;
+}
+
+.nav-title {
+    @apply flex items-center justify-center w-full h-16 px-4 border-b border-gray-300 hover:bg-gray-300;
+}
+
+.nav-item {
+    @apply flex items-center flex-shrink-0 h-10 px-2 mt-2 mx-4 text-sm font-medium rounded hover:bg-gray-300;
+}
+
+.nav-item-font {
+    @apply leading-none ml-4;
+}
+
+.nav-footer {
+    @apply flex items-center flex-shrink-0 h-10 px-2 mt-auto mx-4 text-sm font-medium rounded hover:bg-gray-300;
+}
+
+.nav-svg {
+    @apply w-5 h-5;
+}
+
+.header {
+    @apply flex items-center flex-shrink-0 h-16 px-8 border-b border-gray-300;
+    
+}
+
+.header-title {
+    @apply text-lg font-medium;
+}
+
+.header-btn {
+    @apply flex items-center justify-center h-10 px-4 text-sm font-medium rounded hover:bg-gray-300;
+}
+
+.main-content {
+    @apply flex-grow p-6 overflow-auto bg-gray-200;
+}
